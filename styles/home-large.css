@@ -1,0 +1,37 @@
+@media (min-width:768px){
+    .nav-container
+    {
+        justify-content: flex-start;
+        flex-direction: row;
+        display: flex;
+    }
+    h2
+    {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .open-links, .close-links
+    {
+        display: none;
+    }
+    main
+    {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+    .about-me
+    {
+        grid-column: 1/2;
+    }
+    .my-photo
+    {
+        grid-column: 2/3;
+    }
+    .my-courses
+    {
+        grid-column: 1/3;
+    }
+    
+}

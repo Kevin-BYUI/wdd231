@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Course Home Page</title>
+    <meta name="description" content="This web page is my Course Home Page">
+    <meta name="author" content="Kevin Ogutu">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/home-page.js" defer></script>
 </head>
 <body>
-    <h1>WDD231-Kevin Ogutu</h1>
+    <header>
+        <img src="images/course-home-page.png" alt="Home Page Logo Photo" width="50" height="50">
+        <span>Course Home Page</span>
+        <button class="open-links" hidden>&#9776;</button>
+        <button class="close-links">&times;</button>
+    </header>
+    <nav>
+        <ul class="nav-container">
+            <li class="current"><a href="">Home</a></li>
+            <li class="nav"><a href="">Chamber Project</a></li>
+            <li class="nav"><a href="">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>My name is Kevin Ouma Ogutu, I am currently pursuing Software Development in BYU-Idaho. I joined BYU a couple of years ago and it's been a really nice experience. During my free time, I like going to the beach with my family where we enjoy the fresh breeze from the sea and swim with my lovely wife and two beautiful kids; a boy and a girl. I like watching inspirational and christian vibes while resting in the house.</p>
+        </section>
+        <section class="my-photo">
+            <h2>My Photo</h2>
+            <img src="images/kevin.jpg" width="200" height="200"     alt="Kevin Ogutu Photo">
+        </section>
+        <section class="my-courses">
+            <h2>Web Certificate Courses</h2>
+        </section>
+    </main>
+     <div class="button-group">
+        <button id="btn-all">All Courses</button>
+        <button id="btn-wdd">WDD Courses</button>
+        <button id="btn-cse">CSE Courses</button>
+    </div>
+        <p id="course-count" class="course-count">The total number of course listed below is 0</p>
+    <div id="courses"></div>
+    <footer>
+        <div class="images">
+            <a href="#"><img src="images/facebook.jpg" width="50" height="40"   alt="Facebook logo image"></a>
+            <a href="#">      <img src="images/youtube.jpg" width="50" height="40"    alt="YouTube logo image"></a>
+            <a href="#"><img src="images/telegram.png" width="50" height="40"   alt="Telegram logo image"></a>
+        </div>
+        <span id="current-year"></span>
+       
+    </footer>
+    
+    
 </body>
 </html>
