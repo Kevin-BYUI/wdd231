@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Directory of local businesses from the Chamber of Commerce" />
+  <meta name="author" content="Kevin Ouma Ogutu" />
+
+  <!-- Social Media Open Graph -->
+  <meta property="og:title" content="Chamber of Commerce Directory" />
+  <meta property="og:description" content="Discover trusted local businesses and organizations." />
+  <meta property="og:image" content="images/share-image.jpg" />
+  <meta property="og:url" content="https://yourchamberdomain.org/directory.html" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon" />
+
+
+  <!-- CSS -->
+ <link rel="stylesheet" href="styles/styles.css">
+ <link rel="stylesheet" href="styles/normalise.css">
+ <script src="scripts/directory.js" defer></script>
+ <script src="scripts/main.js" defer></script>
+
+  <title>Directory | Chamber of Commerce</title>
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+        <button id="menuBtn" aria-label="Menu">&#9776;</button>
+        <ul id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Business Directory</h2>
+
+    <div class="view-toggle">
+      <button id="gridBtn">Grid View</button>
+      <button id="listBtn">List View</button>
+    </div>
+
+    <div id="members" class="grid">
+      <!-- Member cards will be inserted here by JavaScript -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact us at info@yourchamber.org</p>
+    <p>&copy; <span id="year"></span> Chamber of Commerce | Kevin Ouma Ogutu | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <!-- JavaScript Files -->
+ 
+</body>
+</html>

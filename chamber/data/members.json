@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Ogutu Tech Solutions",
+    "address": "123 Web Ave, Nairobi",
+    "phone": "+254 712 000000",
+    "website": "https://ogututech.com",
+    "image": "ogututech.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Likoni Health Center",
+    "address": "456 Care Rd, Mombasa",
+    "phone": "+254 722 123456",
+    "website": "https://likonihealth.org",
+    "image": "likoni.jpg",
+    "membership": 2
+  },
+  {
+    "name": "Jumia eShop",
+    "address": "789 Ecom St, Nairobi",
+    "phone": "+254 733 111111",
+    "website": "https://jumia.co.ke",
+    "image": "jumuia.webp",
+    "membership": 1
+  },
+  {
+    "name": "Sunrise Bakery",
+    "address": "12 Crust Lane, Kisumu",
+    "phone": "+254 721 555555",
+    "website": "https://sunrisebakery.co.ke",
+    "image": "bakery.jpg",
+    "membership": 2
+  },
+  {
+    "name": "Coast Photography",
+    "address": "5 Ocean Rd, Mombasa",
+    "phone": "+254 723 444444",
+    "website": "https://coastphotos.co.ke",
+    "image": "photography.jpg",
+    "membership": 3
+  },
+  {
+    "name": "GreenFarm Organics",
+    "address": "88 Nature Ave, Eldoret",
+    "phone": "+254 725 777777",
+    "website": "https://greenfarm.ke",
+    "image": "farm.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Nairobi Fit Club",
+    "address": "22 Energy St, Nairobi",
+    "phone": "+254 720 999999",
+    "website": "https://nairofitness.co.ke",
+    "image": "gym.jpg",
+    "membership": 2
+  }
+]
