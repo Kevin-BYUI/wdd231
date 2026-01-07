@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione perferendis quae dolorum quisquam autem iure delectus unde sed, beatae vel nam? Excepturi illo laudantium fuga! Consectetur quos eum dolorum incidunt.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat distinctio? Autem modi corrupti, similique amet ipsum dolorem non doloremque laudantium earum velit tempore ab quo natus, temporibus nam tempora.</p>
-  <p>I see my git is working correctly now</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="This is my Chamber of Commerce Homepage. It provides links to navigate other sections of my pages">
+    <meta
+      name="author"
+      content="Kevin Ouma Ogutu-Web Frontende Development I, BYU-Idaho">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/home.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/store.svg" alt="Site logo" width="512" height="512">
+      <span>Chamber of Commerce</span>
+      <button id="ham-btn" class="hamberger">&#9776; </button>
+      <button id="cross-btn" class="cross">&#215; </button>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" class="current">Home</a></li>
+        <li><a href="#">Chamber Project</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Home</h1>
+      <section class="about-me">
+        <h2>About Me</h2>
+        <p>My name is Kevin Ouma Ogutu. I am a Kenyan, living in a beatiful city called Mombasa. I currently study Software Development at BYU Idaho. My love for developing websites started way back when I was working as a transcriber, I would pay for automation services from experienced developers. I wanted to know the whole stuff myself, and this is where my interest was sparked!</p>
+      </section>
+      <section class="student-photo">
+        <h2>Student Photo</h2>
+        <img src="images/my-photo.jpeg" alt="My child picyure" width="113" height="200">
+      </section>
+      <section class="web-courses">
+        <h2>Web Certificate Courses</h2>
+        <div class="buttons">
+          <button class="all" id="all-courses">ALL</button>
+          <button class="cse" id="cse-courses">CSE</button>
+          <button class="wdd" id="wdd-courses">WDD</button>
+        </div>
+        <div id="show-courses" class="render-certificates"></div>
+        <p id="credits" class="course-credits"></p>
 
-</body>
+      </section>
+    </main>
+    <footer>
+      <nav class="footer-navs">
+        <a href="#"><img src="images/facebook.jpg" alt="Facebook Logo"></a>
+        <a href="#"><img src="images/instagram.jpg" alt="Instgram Logo"></a>
+        <a href="#"><img src="images/youtube.jpg" alt="YouTube Logo"></a>
+      </nav>
+      <div class="section-footer">
+        <p id="footer-para">©<span id="date"></span>🎀Kevin Ouma Ogutu🎀 Mombasa, Kenya.</p>
+      <p id="last-modified"></p>
+
+
+      </div>
+
+    </footer>
+  </body>
 </html>
