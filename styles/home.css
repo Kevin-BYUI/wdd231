@@ -4,16 +4,20 @@
   --color-secondary: #16a34a;
 
   /* Neutrals */
-  --color-bg: #f9fafb;
+  --color-bg: rgb(249, 250, 251);
   --color-surface: #ffffff;
   --color-border: #e5e7eb;
-   --color-sections: #e3e3e3;
+  --color-sections: #e3e3e3;
+  --color-nav:#000000;
+  --color-li: #ffffff;
 
   /* Text */
   --color-text-primary: #111827;
-  --color-text-muted: #6b7280;
+  --color-text-muted: rgb(107, 114, 128);
   --color-border: #ddd;
   --color-nav-border: #1f1f1f;
+
+
 
   /* Semantic */
   --color-success: #16a34a;
@@ -51,21 +55,23 @@ nav.open{
   display: block;
 }
 nav ul{
-  background-color: var(--color-text-primary)
+  background-color: var(--color-nav);
 
 }
 nav ul li{
   list-style-type: none;
-  border: 3px solid var(--color-nav-border);
+  border: none;
   cursor: pointer;
+  padding: 1px;
+
 }
 nav ul li:hover{
   text-decoration: underline;
   color: var(--color-border);
 }
-ul li a{
+ nav ul li a{
   text-decoration: none;
-  color: var(--color-bg);
+  color: var(--color-li);
 }
 footer img{
   width: 50px;
@@ -94,7 +100,7 @@ main > h1 {
 }
 .current{
   background-color: var(--color-text-muted);
-  padding: 5px;
+  padding: 2px;
 }
 .cross{
   display: none;

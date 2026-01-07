@@ -1,25 +1,3 @@
-:root {
-  /* Brand */
-  --color-primary: #2563eb;
-  --color-secondary: #16a34a;
-
-  /* Neutrals */
-  --color-bg: #f9fafb;
-  --color-surface: #ffffff;
-  --color-border: #e5e7eb;
-  --color-sections: #e3e3e3;
-
-  /* Text */
-  --color-text-primary: #111827;
-  --color-text-muted: #6b7280;
-  --color-border: #ddd;
-  --color-nav-border: #1f1f1f;
-
-  /* Semantic */
-  --color-success: #16a34a;
-  --color-error: #dc2626;
-  --color-warning: #f59e0b;
-}
 @media (min-width:610px){
   header, nav, p, main, footer{
     max-width: 900px;
@@ -47,10 +25,6 @@
     padding: 5px;
     gap: 5px;
   }
-  nav ul li {
-     background-color: var(--color-nav-border);
-
-  }
   .hamberger, #cross-btn{
     display: none;
   }
@@ -62,6 +36,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+  .current{
+  background-color: var(--color-text-muted);
+  padding: 5px;
+}
 
 
 }
