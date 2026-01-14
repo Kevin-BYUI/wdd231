@@ -1,0 +1,79 @@
+[
+  {
+    "companyName": "Coastal Traders Ltd",
+    "companyAddress": "12 Mombasa Road, Mombasa",
+    "companyPhone": "(254) 701-234-567",
+    "companyWebsite": "coastaltraders.com",
+    "imageFile": "./images/coastal-traders.webp",
+    "membershipLevel": 3,
+    "email": "info@coastal.com",
+    "industry": "Import & Export",
+    "tagLine": "Connecting Markets"
+  },
+  {
+    "companyName": "Savannah Tech Solutions",
+    "companyAddress": "45 Moi Avenue, Mombasa",
+    "companyPhone": "(254) 722-345-678",
+    "companyWebsite": "savannahtech.com",
+    "imageFile": "./images/savannah-tech.webp",
+    "membershipLevel": 2,
+    "email": "contact@savanna.com",
+    "industry": "IT Services",
+    "tagLine": "Smart Technology"
+  },
+  {
+    "companyName": "Mombasa Logistics",
+    "companyAddress": "78 Jomo Kenyatta Street, Mombasa",
+    "companyPhone": "(254) 733-456-789",
+    "companyWebsite": "mombasalogistics.com",
+    "imageFile": "./images/mombasa-logistics.webp",
+    "membershipLevel": 1,
+    "email": "support@logistics.com",
+    "industry": "Transportation & Logistics",
+    "tagLine": "Moving Forward"
+  },
+  {
+    "companyName": "Sunrise Hospitality",
+    "companyAddress": "101 Nyali Beach Road, Mombasa",
+    "companyPhone": "(254) 711-567-890",
+    "companyWebsite": "sunrise.com",
+    "imageFile": "./images/savannah-hospitality.webp",
+    "membershipLevel": 3,
+    "email": "hello@sunrise.com",
+    "industry": "Hotels & Tourism",
+    "tagLine": "Where Comfort Lives"
+  },
+  {
+    "companyName": "Mombasa Furniture Co.",
+    "companyAddress": "22 Likoni Road, Mombasa",
+    "companyPhone": "(254) 721-678-901",
+    "companyWebsite": "furniture.com",
+    "imageFile": "./images/mombasa-furniture.webp",
+    "membershipLevel": 2,
+    "email": "sales@furniture.com",
+    "industry": "Furniture & Home Decor",
+    "tagLine": "Crafting Comfort"
+  },
+  {
+    "companyName": "Oceanview Real Estate",
+    "companyAddress": "33 Old Town, Mombasa",
+    "companyPhone": "(254) 734-789-012",
+    "companyWebsite": "realestate.com",
+    "imageFile": "./images/ocean-view.webp",
+    "membershipLevel": 1,
+    "email": "info@realestate.com",
+    "industry": "Real Estate",
+    "tagLine": "Your Gateway"
+  },
+  {
+    "companyName": "Mombasa Agro Ltd",
+    "companyAddress": "55 Kisauni Road, Mombasa",
+    "companyPhone": "(254) 710-890-123",
+    "companyWebsite": "mombasaagro.com",
+    "imageFile": "./images/mombasa-agro.webp",
+    "membershipLevel": 3,
+    "email": "contact@agro.com",
+    "industry": "Agriculture & Farming",
+    "tagLine": "Growing Quality"
+  }
+]
