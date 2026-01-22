@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mombasa Chambers of Commerce Directory</title>
+    <meta name="author" content="Kevin Ouma Ogutu" />
+    <meta
+      name="description"
+      content="Official website of the Mombasa Chambers of Commerce: connecting local businesses, providing resources, events, and networking opportunities."
+    />
+    <meta property="og:title" content="Mombasa Chambers of Commerce" />
+    <meta
+      property="og:description"
+      content="A comprehensive organization connecting and supporting business owners in Mombasa."
+    />
+    <meta
+      property="og:image"
+      content="https://kevin-byui.github.io/wdd231/chamber/images/chambers.jpg"
+    />
+    <meta property="og:url" content="https://kevin-byui.github.io/wdd231/" />
+    <!-- Preconnect to Google Fonts for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load fonts with display=swap -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/largehome.css" />
+    <script src="scripts/landing.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/shield.jpg" alt="Logo" width="55" height="40" />
+      <span>Mombasa chamber of Commerce</span>
+      <button id="ham-btn" class="ham">&#9776;</button>
+      <button id="cross-btn" class="cross hidden">&#10005;</button>
+    </header>
+    <nav>
+      <ul>
+        <li class="way-finding"><a href="#">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero-events">
+        <h1>Home</h1>
+        <section class="hero">
+          <div class="hero-content">
+            <h2 class="hero-header">Mombasa Chambers of Commerce</h2>
+            <p>Connecting local businesses, fueling economic growth</p>
+          </div>
+        </section>
+        <section class="cta">
+          <h2 class="cta-header">Become a Member</h2>
+          <p>Join the Mombasa Chambers of Commerce and grow your business.</p>
+          <a href="#" class="cta-button">Join Now</a>
+        </section>
+      </section>
+      <section class="all-events">
+        <section class="events">
+          <h2>Upcoming Events</h2>
+          <article>
+            <h3>Business Networking Forum</h3>
+            <p>Date: March 12, 2026</p>
+            <p>Location: Mombasa Trade Center</p>
+          </article>
+          <article>
+            <h3>SME Training Workshop</h3>
+            <p>Date: March 20, 2026</p>
+            <p>Location: Chamber Hall</p>
+          </article>
+        </section>
+        <section class="weather">
+          <h2 class="current-weather-heading">Current Weather</h2>
+          <img
+            id="weather-icon"
+            src=""
+            alt="image icon"
+            class="img"
+          />
+          <p id="error-handling"></p>
+          <p>Temp: <span id="temp"></span></p>
+          <p id="description"></p>
+          <p>High Temp: <span id="high-temp"></span></p>
+          <p>Low Temp: <span id="low-temp"></span></p>
+          <p>Humidity: <span id="humidity"></span></p>
+          <p>Sunrise: <span id="sunrise"></span></p>
+          <p>Sunset: <span id="sunset"></span></p>
+        </section>
+        <section class="forecast">
+
+          <div class="forecast-container">
+            <h2>Weather Forecast</h2>
+            <p>Today:<span id="today"></span></p>
+            <p>Friday:<span id="friday"></span></p>
+            <p>Saturday:<span id="saturday"></span></p>
+          </div>
+        </section>
+      </section>
+
+      <div id="membersContainer" class="container"></div>
+    </main>
+    <footer>
+      <p>©<span id="copyright"></span>🎀 Kevin Ogutu, Mombasa, Kenya 🎀</p>
+      <p id="modification-date"></p>
+    </footer>
+  </body>
+</html>
